@@ -230,6 +230,7 @@ p {
   width: 100%;
 }
 .advantages__container {
+  max-width: 1780px;
   margin: 39px 70px 45px;
   border: 9px double #030303;
   border-radius: 20px;
@@ -349,6 +350,7 @@ p {
 
 .facts {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
