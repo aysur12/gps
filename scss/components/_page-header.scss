@@ -1,0 +1,64 @@
+@use '../main.scss' as *;
+
+.page-header {
+  width: 100%;
+  max-width: 1920px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1640px;
+    margin: 0 auto;
+    padding: 18px 20px 60px;
+  }
+
+  &__logo-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 47px;
+  }
+
+  &__short-info {
+    max-width: 401px;
+    margin: 0;
+    padding: 0 14px;
+    border-left: 2px solid $color-border-logo-info;
+    color: $dark-text-color;
+    font: 400 1.5rem/1.25 $main-font-family;
+    text-transform: uppercase;
+  }
+
+  &__tel-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 53px;
+  }
+
+  &__tel-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 258px;
+    max-height: 29px;
+  }
+
+  &__tel-img {
+    width: 20px;
+  }
+
+  &__tel {
+    color: $dark-text-color;
+    font: 600 1.5rem/1.2 $main-font-family;
+  }
+
+  &__tel-button {
+    max-height: 50px;
+    padding: 12.5px 41px;
+    color: #000000;
+    background-color: $primary-bg-color;
+    border-radius: 30px;
+    font: 700 1.125rem/1.4 $third-font-family;
+    text-align: center;
+  }
+}

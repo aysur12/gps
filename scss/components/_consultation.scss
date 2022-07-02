@@ -1,0 +1,85 @@
+@use '../main.scss' as *;
+
+.consultation {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 890px;
+  margin-right: 99px;
+  padding: 87px 31px 41px 63px;
+  background-color: $primary-bg-color;
+  border-radius: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__heading-up {
+    color: $dark-text-color;
+    font: 800 5.438rem $main-font-family;
+    letter-spacing: 0.1em;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__heading-span {
+    font: 400 1.813rem/1.44 $main-font-family;
+    letter-spacing: 2.7px;
+  }
+
+  &__heading-down {
+    color: $light-text-color;
+    font: 600 1.25rem/1.2 $main-font-family;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__input-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__input-block {
+    flex-basis: 48%;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 385px;
+    padding: 21px 20px;
+    color: $darker-text-color;
+    font: 200 1.188em/1.21 $main-font-family;
+    border: none;
+    border-radius: 5px;
+
+    &_tel {
+      padding: 21px 23px;
+    }
+  }
+
+  &__button {
+    max-width: 355px;
+    padding: 19.5px 38px 19.5px 30.5px;
+    color: $light-text-color;
+    background-color: $dark-text-color;
+    border-radius: 43px;
+    font: 600 1.125rem/1.22 $main-font-family;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(23, 55, 95, 0.2);
+  }
+}
