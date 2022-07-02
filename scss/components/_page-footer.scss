@@ -1,2 +1,21 @@
 @use '../main.scss' as *;
 
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  width: 100%;
+  padding: 66px 0 15px;
+
+  &__copyrights {
+    max-width: 447px;
+    font: 400 0.875rem/1.21 $fourth-font-family;
+    text-align: center;
+  }
+
+  &__copyrights-link {
+    color: #f8b500;
+    text-decoration: underline;
+  }
+}

@@ -36,6 +36,13 @@ p {
   margin: 0;
 }
 
+@font-face {
+  font-weight: normal;
+  font-family: "Century Gothic";
+  font-style: normal;
+  font-display: swap;
+  src: url("../css/fonts/centurygothic.ttf") format("truetype");
+}
 .page-header {
   width: 100%;
   max-width: 1920px;
@@ -93,6 +100,7 @@ p {
 
 .promo {
   width: 100%;
+  max-width: 1920px;
   background: linear-gradient(257.35deg, rgba(45, 35, 72, 0.4) 3.59%, rgba(27, 20, 46, 0) 81.68%), url("../img/bg-promo.jpg");
 }
 .promo__container {
@@ -462,6 +470,24 @@ p {
   font: 700 1.125rem/1.22 "Montserrat", "Arial", sans-serif;
   text-transform: uppercase;
   text-align: center;
+}
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  width: 100%;
+  padding: 66px 0 15px;
+}
+.page-footer__copyrights {
+  max-width: 447px;
+  font: 400 0.875rem/1.21 "Century Gothic", "Arial", sans-serif;
+  text-align: center;
+}
+.page-footer__copyrights-link {
+  color: #f8b500;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
