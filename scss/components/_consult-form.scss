@@ -1,0 +1,63 @@
+@use '../main.scss' as *;
+
+.consult-form {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(17, 10, 31, 0.7), rgba(17, 10, 31, 0.7)), url('../img/bg-consultation.jpg');
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 79px 0 90px;
+  }
+
+  &__heading-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__heading {
+    color: $light-text-color;
+    font: 800 2.75rem/1.22 $main-font-family;
+  }
+
+  &__text {
+    color: $light-text-color;
+    font: 400 1.875rem/1.23 $main-font-family;
+  }
+
+  &__form {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+
+  &__input-block {
+    flex-basis: 36.5%;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 20px;
+    color: #383838;
+    background-color: $light-text-color;
+    font: 1rem/1.21 $main-font-family;
+    border: none;
+    border-radius: 5px;
+  }
+
+  &__button {
+    padding: 17.5px 64.5px;
+    color: $dark-text-color;
+    background-color: $primary-bg-color;
+    border-radius: 5px;
+    font: 700 1.125rem/1.22 $main-font-family;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

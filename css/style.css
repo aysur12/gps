@@ -410,4 +410,58 @@ p {
   opacity: 0.2;
 }
 
+.consult-form {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(17, 10, 31, 0.7), rgba(17, 10, 31, 0.7)), url("../img/bg-consultation.jpg");
+}
+.consult-form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 79px 0 90px;
+}
+.consult-form__heading-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.consult-form__heading {
+  color: #fff;
+  font: 800 2.75rem/1.22 "Montserrat", "Arial", sans-serif;
+}
+.consult-form__text {
+  color: #fff;
+  font: 400 1.875rem/1.23 "Montserrat", "Arial", sans-serif;
+}
+.consult-form__form {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.consult-form__input-block {
+  flex-basis: 36.5%;
+}
+.consult-form__input {
+  width: 100%;
+  padding: 20px;
+  color: #383838;
+  background-color: #fff;
+  font: 1rem/1.21 "Montserrat", "Arial", sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+.consult-form__button {
+  padding: 17.5px 64.5px;
+  color: #24173d;
+  background-color: #ffc633;
+  border-radius: 5px;
+  font: 700 1.125rem/1.22 "Montserrat", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
